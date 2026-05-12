@@ -11,3 +11,11 @@
 	  background-attachment: scroll;
 	}
   }
+
+  
+/* 横幅文字效果 */
+.home-banner-title,
+.home-banner-subtitle {
+  text-shadow: 0 0 10px rgba(176, 230, 255, 0.4),
+               0 2px 4px rgba(0,0,0,0.4);
+}
