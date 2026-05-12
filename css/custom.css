@@ -1,0 +1,13 @@
+/* 固定背景效果 */
+.home-banner {
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+  
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+	.home-banner {
+	  background-attachment: scroll;
+	}
+  }
