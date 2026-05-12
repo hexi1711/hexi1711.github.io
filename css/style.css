@@ -1749,7 +1749,7 @@ pre .deletion {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(120deg, rgba(163,31,52,0.522) 0%, rgba(74,144,226,0.522) 100%);
+  background: linear-gradient(120deg, rgba(26,10,46,0.522) 0%, rgba(13,79,79,0.522) 100%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding-top: 2px;
@@ -1762,7 +1762,7 @@ pre .deletion {
   position: relative;
   height: 100%;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -2065,7 +2065,7 @@ pre .deletion {
   transition: max-width 0.3s ease-out;
 }
 html.is-animating .transition-navbar {
-  max-width: 1100px !important;
+  max-width: 1000px !important;
   transition: max-width 0.2s ease-out;
 }
 .page-template-container {
