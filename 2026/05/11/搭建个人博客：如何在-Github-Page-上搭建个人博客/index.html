@@ -1053,10 +1053,11 @@
             serverURL: 'https://example.example.com',
             path: location.pathname,
             dark: 'body[class~="dark-mode"]',
-            reaction: false,
+            reaction: true,
             requiredMeta: ['nick', 'mail'],
-            emoji: [],
+            emoji: ['https://unpkg.com/@waline/emojis@1.1.0/weibo', 'https://unpkg.com/@waline/emojis@1.1.0/bilibili', 'https://unpkg.com/@waline/emojis@1.1.0/qq', 'https://unpkg.com/@waline/emojis@1.1.0/tieba'],
                       lang: 'zh-CN',
+          login: true,
           recaptchaV3Key: 'wasd',
           });
         };
